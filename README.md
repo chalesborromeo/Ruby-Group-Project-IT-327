@@ -1,6 +1,3 @@
-# Rust Project
-Rust Project for IT 327
-
 # Ruby Language Overview
 
 A comprehensive reference document covering Ruby's design philosophy, paradigms, and key language features.
