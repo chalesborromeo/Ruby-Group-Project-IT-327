@@ -10,7 +10,26 @@ The creator wanted to name the language after a gemstone, as a reference to the 
 ### Purpose and Design Goals
 Ruby was designed to be a true object-oriented language that encourages productivity with multi-purpose use and natural syntax that makes it simple to read and write.
 
-## Programming Paradigms
+## Programs
+- **Trivial program:** “Hello World”
+Programmers: Ian, Charles
+Program that prints the string “Hello world” to the console. However, done with a very basic lambda function (unique Ruby feature) to output Hello World, that is then executed with a ‘call’ function.
+
+- **Intermediate Program 1:** Polynomial addition calculator
+Programmers: Joseph, Josiah
+Program that takes user string input of two polynomial functions. The string will then be split into multiple tokens, which will then be stored as their own objects with coefficients and exponents in a “term” class. A Polynomial class will store an array of these polynomial term objects arranged in order of exponent, allowing us to iterate through and compare polynomials, to output a polynomial sum back to the user. All in all, this program displays classes/objects in Ruby, user interaction, and string parsing.
+
+- **Intermediate Program 2:** Banking Interface
+Programmers: Charles, Joseph
+Program that has a database (simple array or hash) of account objects with attributes such as account holder name and account balance. Prompts user with options to create, view, and modify. For instance, they can search for a specific account’s information, add additional accounts, and perform actions such as withdrawals (with validation), or print a bank account report to a file. Displays nature of classes/objects, user interaction, and file writing in Ruby.
+
+- **Intermediate Program 3:** Shape Area calculator
+Programmers: Ian, Josiah
+A program that prompts the user to select a shape and input required data, then returns the area of the shape. Use of parent ‘Shape’ class with a function for calculating area that subclasses (specific shape classes) will inherit from and overwrite. Use of unique Ruby concepts such as mixins to format and print results (dimensions, area), to keep the Shape classes solely for making calculations with the data. Displays inheritance and object-orientation in Ruby.
+
+- **Complex Program w/ Data Structure:** Symbol matching
+Programmers: Everyone
+Program that reads a text file, and checks for matching opening and closing symbols (for ex. parentheses, brackets, comments). This will be done through a custom stack class with an array where we write the code for the push, pop, peek, and empty methods. The program will then provide specific feedback for errors (which symbols are missing/mismatched and which lines), if any. This displays Ruby’s file reading, and more of its object orientation with our custom data structure
 
 ### Primary Paradigm
 **Object-Oriented**
@@ -33,8 +52,6 @@ Ruby is primarily an interpreted language, but also has steps of compilation whe
 
 ### Notable Features
 Ruby works purely with object-oriented programming. Variables are dynamically typed and very flexible.
-
-## Type System
 
 ### Type System Characteristics
 - **Typing**: Dynamic
