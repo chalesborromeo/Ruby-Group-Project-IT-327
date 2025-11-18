@@ -99,7 +99,7 @@ def calculate_triangle_base_height
 end
 
 def calculate_triangle_three_sides
-  puts "\n--- Triangle Calculator (Three Sides - Heron's Formula) ---"
+  puts "\n--- Triangle Calculator (Three Sides) ---"
   side_a = get_positive_number("Enter side a: ")
   side_b = get_positive_number("Enter side b: ")
   side_c = get_positive_number("Enter side c: ")

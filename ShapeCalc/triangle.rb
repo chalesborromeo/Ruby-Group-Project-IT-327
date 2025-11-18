@@ -23,7 +23,7 @@ class Triangle < Shape
     else
       a, b, c = @sides
       s = (a + b + c) / 2.0
-      Math.sqrt([s * (s - a) * (s - b) * (s - c), 0].max)
+      Math.sqrt([s * (s - a) * (s - b) * (s - c), 0].max)#might modify to print an error if negative value
     end
   end
 
