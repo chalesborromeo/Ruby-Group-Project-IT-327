@@ -1,0 +1,5 @@
+def mixed()
+  hash = {
+    key: [1, 2, 3}
+  ]
+end
